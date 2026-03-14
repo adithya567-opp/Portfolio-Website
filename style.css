@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#f5f7fa;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+section{
+    padding: 60px 80px;
+}
+header {
+    background: #5b5bd6;
+    padding: 18px 60px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+img{
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size:24px;
+    margin:0;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+body > img {
+    display: block;
+    margin: 40px auto 10px;
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+p {
+    max-width: 700px;
+}
+#about {
+    background: white;
+}
+
+#skills {
+    background: #f5f7fa;
+}
+
+#project {
+    background: white;
+}
+
+#contact {
+    background: #f5f7fa;
+}
+#skills ol {
+    margin-left: 20px;
+}
+
+#skills ul {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#skills li {
+    margin-bottom: 6px;
+}
+#project article {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+#project img {
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+button {
+    background: #6c6cf1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a5ad8;
+}
+footer {
+    background:#6c6cf1;
+    color: white;
+    text-align: end;
+    padding: 25px 10px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+body > img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body > img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+#project article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#project article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+button {
+    background: #6c6cf1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #5a5ad8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+button {
+    background: #6c6cf1;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #5a5ad8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+input, textarea {
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #6c6cf1;
+    box-shadow: 0 0 5px rgba(108,108,241,0.4);
+}
